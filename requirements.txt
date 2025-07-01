@@ -1,0 +1,17 @@
+langchain
+langchain-groq
+langgraph
+mcp[cli]
+fastapi
+langchain-community
+pinecone
+ipykernel
+langchain-pinecone
+sentence-transformers
+pypdf
+langchain-cohere
+mcp
+langchain-tavily
+dotenv
+langchain_mcp_adapters
+fastmcp
