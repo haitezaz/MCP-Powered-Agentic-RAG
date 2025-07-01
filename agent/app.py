@@ -15,7 +15,7 @@ rag_agent_ = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global rag_agent_
-    client = Client("http://127.0.0.1:8000/mcp")
+    client = Client("Your Server URL here if deployed or running locally/mcp")
     # Startup: Create MCP client and agent
     
     rag_agent_ = Agent(client)
